@@ -1,0 +1,287 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{tabularx}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{MEMENTO \\
+- The Technical Solution for 'Youngzheimer'\\
+}
+
+\author{\IEEEauthorblockN{SUK CHEOL LEE}
+\IEEEauthorblockA{\textit{College of Engineering} \\
+\textit{Hanyang University}\\
+\textit{Dept.of Information System}\\
+Seoul, Korea \\
+tjrcjf9@gmail.com}
+\and
+\IEEEauthorblockN{HA NUEL LEE}
+\IEEEauthorblockA{\textit{College of Engineering} \\
+\textit{Hanyang University}\\
+\textit{Dept.of Information System}\\
+Seoul, Korea \\
+ezzeezz@naver.com}
+\and
+\IEEEauthorblockN{SE HEE JEONG}
+\IEEEauthorblockA{\textit{College of Engineering} \\
+\textit{Hanyang University}\\
+\textit{Dept.of Information System}\\
+Seoul, Korea \\
+sjsk04230000@hanyang.ac.kr}
+\and
+\IEEEauthorblockN{JUN SANG CHO}
+\IEEEauthorblockA{\textit{College of Engineering} \\
+\textit{Hanyang University}\\
+\textit{Dept.of Information System}\\
+Seoul, Korea \\
+cjsjustin99@naver.com}
+}
+
+\maketitle
+
+\begin{abstract}
+Our team is trying to develop MEMENTO, which is a user-friendly application that will help prevent Youngzheimer (Young + Alzheimer). Alzheimer, which is one of a type in dementia, has grown its problem on a rapid speed. The typical early symptom of dementia is memory loss, which gradually forgets what you have experienced and decreases your judgment as time goes by. Among them, Alzheimer's-type dementia accounts for more than half of all dementia patients, and nerve cells in the brain slowly decline, disappearing brain tissue, causing brain atrophy and dementia symptoms. According to the World Health Organization (WHO), the global dementia population is about 50 million, and it is expected to more than triple to 152 million by 2050. Since dementia has no perfect treatment, early diagnosis, management, and maintenance are considered as a key factor to prevent dementia. Recently, the number of people suffering from excessive forgetfulness, an early symptom of dementia, is increasing rapidly, especially in the younger generation. Dementia is usually known as a common disease that occurs frequently in the elderly over the age of 65, but recent research in Korea has shown a totally different aspect. Symptoms such as severe forgetfulness, which is an early sign of a dementia, occurred frequently among 20s and 30s in Korea, as a high proportion of 43.9\%. As a result, "Youngzheimer," a combination of Alzheimer's' newly coined words "young" and "Alzheimer’s," was also born. According to the study, the younger generations such as M-Z generation has a very high overall ranking on their health care. There is a phrase such as early care syndrome, which is taking care of their health early due to global diseases such as COVID-19. Also, they are very open-minded in investing their time and money in taking care of their health, and long for ‘healthy pleasure’, which stand for happy health care. High-level of interest in health care among younger generations will certainly work well for MEMENTO, and it is expected to elicit a positive response. Based on the data analyzed in the user's daily life, MEMENTO will be a user-friendly application, such as asking questions to prevent dementia in the younger generation and providing feedback and results accordingly. 
+\end{abstract}
+
+\begin{IEEEkeywords}
+Youngzheimer, Health Care, User-Friendly Application
+\end{IEEEkeywords}
+
+\begin{table} [h]
+    \centering
+    \begin{tabular}{l|l|l}
+    \hline
+    \textit{\textbf{Roles}} & \textit{\textbf{Name}} & \textit{\textbf{Description}}
+     & & & \\ \hline
+   \textit{\textbf{\begin{tabular}[c]{@{}l@{}}Software \\ Developer\\(Front-End)\end{tabular}}} & \textit{\textbf{\begin{tabular}[c]{@{}l@{}}SUK \\ CHEOL \\ LEE\end{tabular}}}& \begin{tabular}[c]{@{}l@{}}A Software Developer(Front-End) \\ uses web languages such as CSS, \\ HTML, and JavaScript to create \\ websites and applications. Anything \\ that a user sees and click is a work \\ done by Front-End developer. \\ Ensuring user to easily access and\end{tabular} \\ \hline
+   \end{tabular}
+\end{table}
+
+\begin{table} [h]
+    \centering
+    \begin{tabular}{l|l|l}
+    \hline
+   \textit{\textbf{\begin{tabular}[c]{@{}l@{}}\end{tabular}}} & \textit{\textbf{\begin{tabular}[c]{@{}l@{}}\\ \end{tabular}}}& \begin{tabular}[c]{@{}l@{}} \\ interact with the site or app is their \\ primary goal. This process is done by \\  combining technology and, design, \\ and programming skills that determines\\ the appearance of a  website, as well as\\ taking care of any errors. Creating the\\ user interface  (UI) that determines what \\each part  of a site or application does\\ and how  it will look is their primary\\ focus.  Developer (Front-End) determines \\ where to place images, what the \\ navigation should look like, and how \\ to present the site. Much of their work\\ involves ensuring the appearance and\\ layout of the site or application is\\ easy to navigate and intuitive for \\the user. This role requires creativity,\\ problem-solving ability, communication\\ skills between others, and smooth \\teamwork.\end{tabular} \\ \hline
+   \textit{\textbf{\begin{tabular}[c]{@{}l@{}}Software\\ Developer\\(Back-End)\end{tabular}}} & \textit{\textbf{\begin{tabular}[c]{@{}l@{}}HA \\ NUEL \\ LEE\end{tabular}}}& \begin{tabular}[c]{@{}l@{}} \\ A Software developer (Back-end) is \\responsible for writing the web services\\ and APIs used by front-end developers\\ and mobile app developers. This role\\ oversees the server-side web application\\ logic as well as the integration of the\\ front-end part. Besides being in charge of \\the server-side logic, their primary focus \\is to define and maintain the central\\ database, making sure that it has high\\ performance and responsiveness to \\requests from the front-end. This\\ role must understand the structure of\\ their central database and software and\\ focus on features or tasks to make\\ the development of the software possible.  \end{tabular} \\ \hline
+   \textit{\textbf{\begin{tabular}[c]{@{}l@{}}Software\\ Developer\\(Machine\\Learning)\end{tabular}}} &\textit{\textbf{\begin{tabular}[c]{@{}l@{}}SE \\ HEE \\ JEONG\end{tabular}}} & \begin{tabular}[c]{@{}l@{}} A Software developer (Machine learning)\\ works with algorithms, data, and artificial\\ intelligence. This role must make a \\research, build, and design the artificial\\ intelligence software responsible for\\ machine learning. Maintaining and\\ improving artificial intelligence systems\\ is their primary focus. This role performs\\ data collection, cleaning, and preprocessing\end{tabular} \\ \hline
+   \end{tabular}
+\end{table}
+
+\begin{table} [h]
+    \centering
+    \begin{tabular}{l|l|l}
+    \hline
+   \textit{\textbf{\begin{tabular}[c]{@{}l@{}}\end{tabular}}} & \textit{\textbf{\begin{tabular}[c]{@{}l@{}}\\ \end{tabular}}}& \begin{tabular}[c]{@{}l@{}} \\to extract meaningful value, and utilize it\\ in training models and deploy them to\\ software. This role is responsible for\\ implementing machine learning algorithms\\ to a software adequately, must run AI\\ systems experiments and tests, design and\\ develop machine learning systems, and\\ perform statistical analysis.\end{tabular} \\ \hline
+   \textit{\textbf{\begin{tabular}[c]{@{}l@{}}Project\\ Designer\\(Back-End)\end{tabular}}} & \textit{\textbf{\begin{tabular}[c]{@{}l@{}}JUN \\ SANG \\ CHO\end{tabular}}}& \begin{tabular}[c]{@{}l@{}} \\ A product designer is responsible to design\\ a product with user-centered sight and must\\ have the ability to sympathize with and\\ understand the user's experiences. This plays\\ as a role in creating the overall framework\\ of a product or services. Product designer\\ is responsible for communicating smoothly\\ with other team members and create\\ collaboration. Product designer must focus\\ on the usability of a product or service and\\ modify the design of a product to obtain\\ better results. \end{tabular} \\ \hline
+   \end{tabular}
+\end{table}
+
+\section{Introduction}
+\subsection{Motivation}
+According to a dementia awareness study conducted by the Central Dementia Center and Gallup Korea, one in three adults selected dementia among the most feared diseases and ranked first with an overwhelming rate of 43 percent for those in their 60s and older. Everyone wants to avoid the cruel reality that it damages not only themselves but also their families who take care of them and forget their names and family names in the future. However, the incidence of dementia in Korea is about 10\% of the population aged 65 or older, which is by no means a small number. Currently, the number of dementia patients in Korea is about 850,000, which is very high for a single disease. However, recent research showed that severe forgetfulness, which is an early symptom of dementia has also begun to appear frequently in the younger generation. Since dementia can be a very sensitive matter to some people, our team is trying to provide advises based on data analyzed based on user's daily activities. MEMENTO will serve as a tool to prevent Youngzheimer in a user-friendly approach. 
+
+\subsection{Problem Statement}\label{SCM}
+\begin{itemize}
+\item There are many similar applications that helps prevent brain diseases such as ‘dementia check’ created by national institute of dementia and national medical center, center of dementia. However, there’s currently no application that focuses on younger generation’s Youngzheimer.\\
+\item We should make an approach carefully since dementia can be a very stimulating subject for the younger generation. Apart from high interest in health care, the views of the younger generation on the  dementia could be very negative and are highly likely to be clearly divided. Emphasizing the role of MEMENTO is important to attract users among younger generation.\\
+\item The absolute number of people affected by, dying, or remaining disabled from neurological disorders such as dementia over the past 25 years has been increasing globally.\\
+\item Small actions such as going over one’s daily schedule and playing small games that activates brain has been proven effective in increasing brain health and preventing diseases\\
+\item Distribution rate of smartphones in Korea have reached 97\% in 2022, so application is the most effective and convenient tool to help prevent Youngzheimer.\\
+\end{itemize}
+
+\subsection{Solution}\label{SCM}
+\begin{itemize}
+\item We will create a differentiation of our application through the daily timeline and the quizzes created based on daily activities of a user. There will also be a analysis on quiz results provided to a user.\\
+\item Our application focuses on the prevention of Youngzheimer, by alleviating it’s early symptoms such as forgetfulness. Our program will not be used as a tool to determine whether a user is a dementia patient, which has a high possibility of provoking user’s uncomfortableness.\\
+\item We will increase the inflow and interest of our application by providing users with information that helps them manage their health from an early stage. These information includes such as vitamin recommendation, exercise recommendation, improvement of eating habits, and other good habits.\\
+\end{itemize}
+
+\subsection{Research on Related Software}\label{SCM}
+\begin{itemize}
+A. SILVIA\\
+\item SILVIA is an application for the purpose of preventing and treating degenerative brain diseases that provides various functions to improve brain health. Silvia's key features include initial questioning, habit management, expert counseling, health information, exercise content, brain training games, customized routine habit formation, memo functionality, meditation and stretching recommendations, and weekly statistics. SILVIA is currently available in both Android and iOS platforms.\\
+\\
+B. NeuroNation\\
+\item NeuroNation is an application that strengthens the user's brain through tests in various sectors. It improves memory, strengthens attention, helps logical thinking, and increases speed of thought through attention tests, memory tests, reasoning tests, symbolism tests, and math skills tests. NeuroNation is currently available in both Android and iOS platforms.\\
+\\
+C. Dementia Check\\
+\item Dementia Check is an application developed by collaboration of Ministry of Health and Welfare of Korea and the Central Dementia Center. It’s main functions include checking the risk of dementia, an encyclopedia of dementia, a function to find the elderly through GPS, a function to manage dementia people, a care diary function, facility information to help dementia patients, and messages containing hope. Dementia Check is currently available in both Android and iOS platforms.\\
+\end{itemize}
+
+\section{REQUIREMENT ANALYSIS}
+\subsection{Voice Recording}
+MEMENTO supports voice recording function, which can be recorded whenever a user touches the record button in the screen. Touch the screen immediately triggers GPS function and saves the location information and time. The saved information are automatically sent to the database.\\
+\subsection{Daily Quiz}
+According to the timeline and location information, and voice recordings that user have made in function B will be converted into a simple quizzes. User will be able to make improve their memory by solving the questions and will be able to go over their daily activities in a more interesting manner.\\
+\subsection{Timeline}
+User will be able to access daily timeline by touching a certain day in Function G(Calendar), and it will provide daily timeline based on the information saved from Function B(Voice Recording), and will include timelines made in LG ThinQ, showing a user the activities of electronic devices indoor. \\
+\subsection{Daily Report}
+User will be able to receive analysis reports based on answer rates done in function C(daily quiz) on a daily basis. User can go over their quiz results, and game results whenever they want. \\
+\subsection{Prevention Game}
+MEMENTO will provide various types of games that will help prevent Youngzheimer and improve memory, similar to games that are officially selected by the Central Dementia Center and the Ministry of Health and Welfare. Through the highly accessible method of games, dementia, which can be a very sensitive topic, can be approached more familiarly, and the inflow of the younger generation and the frequency of application use can be increased.\\
+\subsection{Self-Diagnosis}
+MEMENTO will be providing Youngzheimer self-diagnosis questions, silmilar to the ones that are officially adopted by the Ministry of Health and Welfare of the Republic of Korea. Users of the application will be able to conduct tests on their memory periodically.\\
+\subsection{Calendar}
+User will be able to look over their weekly, or monthly progress and after using Function B(voice recording) and function C(daily quiz). Calendar will be consisted of selectable year, and month.\\
+\subsection{Habit \& Notification}
+MEMENTO provides various information such as food and vitamins recommendation, or exercise routines that helps prevent Youngzheimer, and provides notifications through alarms at the time set by the user to prevent user from forgetting. Through this function, user will we able to create good habit and stay motivated.\\
+\subsection{Profile}
+Due to characteristics of individual users, MEMENTO supports creating personal profile consisted of their own ID and password. Profile can be created by entering email, sex, ID, password, age or can be also created by using one's social media account such as Naver, Google, or Kakao.\\
+
+\section{DEVELOPMENT ENVIRONMENT}
+\subsection{Choice of Software Development Platform}
+
+Our team will develop application in the environment of Mac operating system and Windows operating system. To create hybrid application that works for both iOS and Android platform, we will use React-Native framework which is based on JavaScript. We will also use Spring framework, which is based on JAVA, because it provides high effectiveness in storing and loading data in building a real-time server. As MySQL provides a database framework, it will be more helpful for the Spring framework.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|l}
+    \hline
+    \multicolumn{1}{l|}{\textit{\textbf{Tools and Language}}} & \textit{\textbf{Reason}} 
+     & & \\ \hline
+    \textit{\textbf{React-Native}} & \begin{tabular}[c]{@{}l@{}}React Native is an open-source UI software\\ framework created by Meta Platform, Inc.\\ It is used to develop applications for\\ Android, Android TV, iOS, macOS, tvOS,\\ Web, Windows and UWP by enabling \end{tabular} \\ \hline
+    \end{tabular}
+    \renewcommand{\thetable}{\arabic{table}}
+    \captionsetup{justification=centering}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|l}
+    \hline
+    \multicolumn{1}{l|}{\textit{\textbf{}}} & \textit{\textbf{}} 
+     & & \\ \hline
+    \textit{\textbf{React-Native}} & \begin{tabular}[c]{@{}l@{}}developers to use the React framework along with\\ native platform capabilities. It is also being used to\\ develop virtual reality applications at Oculus. React\\ Native has one of the biggest feature of being able to\\ create native UI for Android and iOS using JavaScript,\\ and create high-quality UI faster than using HTML.\\ React Native communicates with Native Thread over\\ native bridges, optimizing performance unlike web apps.\\ Using a method of communicating with the native\\ without using this web is called a Hybrid App, and\\ there are Xamarin, Native Script, and flutter. \end{tabular} \\ \hline
+    \textit{\textbf{Spring}} & \begin{tabular}[c]{@{}l@{}}Spring Framework is an open-source application\\ framework for the Java platform and is a lightweight\\ solution that provides comprehensive capabilities for\\ developing enterprise-class applications. Enterprise-class\\ development is a development aimed at the enterprise if\\ you put it your way. In other words, an enterprise\\ environment is a very large environment in which large\\ data processing and transactions occur simultaneously\\ from multiple users. The Spring Framework is a\\ lightweight container that stores and manages Java\\ objects directly. It manages the creation, destruction,\\ and life cycle of objects, and you can import and use the\\ required objects from the Spring container at any time.\\ This means that Spring is an IOC-based framework. \end{tabular} \\ \hline
+    \textit{\textbf{MySQL}} & \begin{tabular}[c]{@{}l@{}}MySQL is the most widely used open-source\\ database worldwide and is a database developed\\ and distributed by MySQL AB. Open-source relational\\ database management management systems (RDBMS)\\ using the standard database query language SQL \\(Structured Query Language), which are very fast,\\ flexible, and easy to use. It supports multiple users,\\ multiple threads, and provides an application interface\\ (API) for C, C++, Eiffel, Java, Pearl, PHP, Python\\ scripts, and more. It can be used on Unix, Linux,\\ and Windows operating systems. The Linux operating\\ system, apache server program, MySQL, and PHP\\ script language composition are free programs that are\\ well interworking and are developed open-source, so\\ they are widely used for general web development such\\ as homepages and Shopping Mall. \end{tabular} \\ \hline
+    \end{tabular}
+    \renewcommand{\thetable}{\arabic{table}}
+    \captionsetup{justification=centering}
+\end{table}
+\break 
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|l}
+    \hline
+    \multicolumn{1}{l|}{\textit{\textbf{Name}}} & \textit{\textbf{Development environment}} 
+     & & \\ \hline
+    \textit{\textbf{SUK CHEOL LEE}} & \begin{tabular}[c]{@{}l@{}}MacOS Monterey 12.3.1, React-Native\end{tabular} \\ \hline
+    \textit{\textbf{HA NUEL LEE}} & \begin{tabular}[c]{@{}l@{}}MacOS Monterey 12.2.1, Spring\end{tabular} \\ \hline
+    \textit{\textbf{SE HEE JEONG}} & \begin{tabular}[c]{@{}l@{}}Windows 11, Tensorflow, Jupyter\end{tabular} \\ \hline
+    \textit{\textbf{JUN SANG CHO}} & \begin{tabular}[c]{@{}l@{}}Windows 10, React-Native\end{tabular} \\ \hline
+    \end{tabular}
+    \renewcommand{\thetable}{\arabic{table}}
+    \captionsetup{justification=centering}
+\end{table}
+
+\subsection{Cost Estimation}
+To implement our application, it is necessary to obtain data from the database or to obtain real-time information from the server while communicating with the server in real-time. Therefore, real-time servers must be hosted and several APIs were needed.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|l}
+    \hline
+    \multicolumn{1}{l|}{\textit{\textbf{Tool and Language}}} & \textit{\textbf{Cost Estimation}} 
+     & & \\ \hline
+    \textit{\textbf{Amazon Lightsail}} & \begin{tabular}[c]{@{}l@{}}Amazon Lightsail is a Virtual Private Server\\ (VPS) provider, which gives developers the\\ capacity and capabilities to compute, storage,\\ and networking to deploy and manage websites\\ and web applications in the cloud. Lightsail\\ includes everything you need to get your project\\ up and running quickly (virtual machines, \end{tabular} \\ \hline
+    \end{tabular}
+    \renewcommand{\thetable}{\arabic{table}}
+    \captionsetup{justification=centering}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|l}
+    \hline
+    \textit{\textbf{}} & \begin{tabular}[c]{@{}l@{}} containers, databases, CDNs, load balancers, DNS\\ management, etc.), and these services are available at\\ low, predictable monthly rates. \end{tabular} \\ \hline
+     \textit{\textbf{\begin{tabular}[c]{@{}l@{}}Naver Clova \\ Speech API\end{tabular}}} & \begin{tabular}[c]{@{}l@{}}Naver Clova speech API is a voice recognition API\\ service that can be used to create services such as\\ secretary applications, chatbots, and voice notes that\\ recognize human voices. Voice data is transmitted\\ through the API to the Clova Speech Recognition \\(CSR) engine, which recognizes the voice data,\\ converts it into text, and delivers it. The API fee\\ is about 480 won per 10 minutes, and the cost is\\ expected to be about 50,000 won during the test\\ process before the service is distributed, but \\accurate prediction is impossible. \end{tabular} \\ \hline
+    \end{tabular}
+    \renewcommand{\thetable}{\arabic{table}}
+    \captionsetup{justification=centering}
+\end{table}
+
+\subsection{Software in Use}\label{SCM}
+\begin{itemize}
+A. Git \& Github\\
+\item Git is a type of distributed version control system. Git records tasks within the project folder and enables systematic development through version management. Git allows multiple people to simultaneously develop the same files as one project without having to exchange source code separately. Github is a web hosting platform that supports projects using Git. Github is a cloud management version management system that provides a graphical user interface (GUI).\\
+\\
+B. Notion\\
+\item Notion is an all-in-one productivity tool and collaboration tool that can efficiently create and manage notes, schedules, tasks, data, and projects. Notion is positioned as an all-in-one tool that replaces team wiki, project management, and document sharing tools as an enterprise collaboration tool. In addition, it is used for various purposes such as personal wikis, websites, company websites, blogs, and databases, and is known to be used for business in Korea as well as carrot markets and zigzag.\\
+\\
+C. Android Studio\\
+\item Dementia Check is an application developed by collaboration of Ministry of Health and Welfare of Korea and the Central Dementia Center. It’s main functions include checking the risk of dementia, an encyclopedia of dementia, a function to find the elderly through GPS, a function to manage dementia people, a care diary function, facility information to help dementia patients, and messages containing hope. Dementia Check is currently available in both Android and iOS platforms.\\
+\\
+D.Xcode\\
+\item Xcode is an IDE provided by Apple that can make various software for Apple such as macOS and iOS. Xcode is an application that runs only in macOS, and it is used to write objective-c or swift and develop applications. Xcode uses LLVM, which further improves the performance of GCC, as the main compiler.\\
+\\
+E.IntelliJ\\
+\item IntelliJ IDEA is a commercial Java integrated development environment (IDE) produced by JetBrains. IntelliJ is an intelligent context-aware IDE for working with all kinds of applications such as Java and other JVM languages such as Kotlin, Scala, and Groovy.\\
+\\
+F.Visual Studio Code\\
+\item Visual Studio Code is a source code editor developed by Microsoft as an open source. Built on the basis of electron from GitHub, it supports Microsoft Windows, macOS, and Linux. It also includes debugging support, Git control, syntax enhancement, SSH access, and allows users to modify the editor's themes, shortcuts, and settings.\\
+\\
+G.Postman\\
+\item Postman is a platform that helps user to implement API development more quickly and easily, and helps test and document or share the developed API. Postman provides a variety of functions for API developers, including variables and environments, request descriptions, and script writing required for testing and pre-requests.\\
+\\
+H.Amazon Lightsail\\
+\item Amazon Lightsail is a virtual private server (VPS) service provided by Amazon Web Services. It is cheaper than traditional AWS EC2 and makes it easy to manage key functions required for web services in one place\\
+\\
+I. Figma\\
+\item Figma is a tool used for UX/UI design. The real-time collaboration function is well established, so designers, developers, and planners often use it when collaborating. Because it is a web-based tool, there is no need for installation, and it can be run directly from a browser. There is a development tool bar that gives information that developers can refer to, and using the mouse tool bar can also check the numerical values, enabling fast work without guidelines.\\
+\\
+J.Overleaf\\
+\item Overleaf is a collaborative cloud-based online LaTeX editor used for writing, editing and publishing scientific documents. Overleaf does not require any installation, and provides various templates for user's convenience in documentation. Overleaf is very fast, can easily share documents with teammates, and fix errors in documents. Overleaf also provides real time screen of the documentation outcome in the right side of the page, allowing user to respond immediately.\\
+\\
+K.TensorFlow\\
+\item TensorFlow is an open-source software library for data flow programming for various tasks created by Google Brain team. It is a symbolic mathematical library and is also used in machine learning applications such as artificial neural networks and deep learning. TensorFlow offers APIs that facilitates Machine Learning. The goal is to implement this AI model in using NUGU speaker.\\
+\\
+L.NUGU playbuilder\\
+\item NUGU playbuilder connects to NUGU speakers and supports a variety of services of NUGU, SK telecom’s artificial intelligence speaker. NUGU platform first identifies the intention of user utterance through voice recognition and natural language understanding. Then, it properly acts and responds through text-to-speech. NUGU playbuilder is a GUI based integrated development environment that offers techniques needed in this process.\\
+\\
+\end{itemize}
+
+
+
+\section{SPECIFICATION}
+\subsection{Loading Page}\label{AA}
+This page utilizes the AppLoading function, which is one of a component of React Native. During the application loading time, both API data and Server data are loaded, and when the application finishes loading, it will automatically proceed to the next page. When downloading an application for the first time, a window will pop up to select whether to agree/disagree to allow permission using GPS and recording function required by the application. Only when these two functions are allowed can the recording button of the recording page E can be fully used, and it can move on to the next page. If the user accidentally selected 'disagree' in the permission pop up, it can be later changed in the application settings inside the phone to Allow.
+\\
+\subsection{Login Page}
+This page is a page where all tasks related to the user's login are performed. In this page, user can login using their own Id and password, or use social ID to login, or go to the registration page to create a new account. At the top of the screen, there is an input space where user can type Id and password. ID can be entered up to 8 characters, and password can be up to 10 characters. If both Id and password are entered correctly, the user can successfully login by pressing the login button located on the right. If user has logged in successfully, they will be redirected to page(D), Self-Diagnosis page. However, if the ID or password is entered incorrectly, the login fails with a pop-up screen showing 'ID or password is incorrect'. If a user wants to create a new account, they can go to page(C), Register Page by pressing the registration button located at the bottom. At the bottom there will be Google Logo, Naver Logo, and Kakao Logo, and user can sign up for membership and login by selecting the account they want. When a user click the corresponding logo, it is redirected to an external Internet browser (Safari, Chrome, and others) to the corresponding social login page.
+\\
+\subsection{Registration Page}
+This page is a registration page that allows users to set their own unique ID and password. This page is consisted of input spaces to enter name (or nickname), ID, password, mobile phone number, email address, and a submit button at the end. First, the user must create a name (or nickname), which can be written only in Korean. The ID can only be written in combination of Alphabet and numbers and can be set up to 8 characters maximum. If a user attempts to use an ID that someone else is already using, the application will show a pop up screen indicating "This ID is unavailable. Please try another ID.". The password can be set within 10 characters, as a mixture of Alphabet, number, and special character. Mobile phone number will have three input spaces divided by “-“, which allows the user to easily enter their mobile phone number. Also, an e-mail address is necessary to provide service-related guidance to a user. Therefore, user must enter an available e-mail when they register. Entering e-mail will be consisted of two input spaces divided by “@” and lastly a space where user can select and auto-complete e-mail address. User can either type the e-mail domain.com by themselves, or select the domain provided in the auto-complete space. Finally, when user is done entering user information, pressing the submit button will complete the user's registration.
+\\
+\subsection{Self-Diagnosis}
+MEMENTO regularly conducts self-diagnosis immediately after logging in and once every month to alert user about Youngzheimers. This page provides a subjective memory complaints questionnaire (SMCQ) presented by the Central Dementia Center, an institution under the National Medical Center of Republic of Korea. The subjective memory loss questionnaire is a question to find out subjective memory and mood, and consists of questions about memory disorders that you usually experience subjectively. The user reads the corresponding questions and responds yes/no to what matches his/her behavior, thoughts, or feelings. For users that answered "Yes" to more than 6 out of a total of 14 questions, the result screen is displayed, "Danger! Please visit a nearby health center or dementia safety center for more accurate dementia examination.". For users who answered "Yes" to five or less questions, the result screen is displayed, "Safe! exercise well and participate various social activities, and try to follow the Dementia Prevention Rule 3.3.3 well to prevent dementia. If you want a more accurate dementia examination, please visit a nearby health center or dementia safety center.”. Upon completion of the diagnosis, user will be redirected to page(E), Recording Page.
+\\
+\subsection{Recording Page(Main Page 1)}
+In this page, User is able to record "whenever, wherever daily", which is a key function of MEMENTO. This page consists of a microphone icon and a recording button in the middle of the page. The microphone icon helps the user to grasp at a glance what the function of this page is. The function of this page activates as soon as the user presses the button. When the user presses the button, the recording starts. As soon as recording begins, the recording button with a shape of a circle and a color of red will be converted into a black square. On this page, the user can record instantaneous emotions, appreciation, and others in daily activities. The recording stops if a user touches the black square button once again, and it will change its shape to initial state, a red circle button. The voice recording file in which the user speaks aloud is transmitted to its own server DB along with the time information and location (GPS) information. The voice record spoken by the user is then converted into text through the CLOVA speech API based on STT technology. The text can be viewed at a glance in the form of a timeline in page(G), Daily Page. User can swipe the mobile phone screen to the right to move to the page(F), Calendar Page, and swipe left to come back to this page.
+\\
+\subsection{Calendar Page(Main Page 2)}
+This page is one of MEMENTO’s main page, which allows users to navigate to various features of MEMENTO. This page consists of a calendar that allows user to go to the page(G), daily page, a button that allows user to go to page(I), prevention information page, and a button that allows a user to go to the page(H), Youngzheimer prevention game page. A monthly calendar is located in the center of a page, and just like any regular calendar, user can change month by touching an arrow icon both located on left or right of the calendar, and can move to another year by clicking the current year. Clicking current year will show a pop up screen consisted of years, and user can choose an year they are looking for. After selecting year and month, user can select a certain day and move to the page(G), daily page. If a user had conducted more than one voice recording in page(E), recording page, the system will draw one layer of circle. And if a user have also conducted a daily quiz based on their voice record, the system will draw another layer of circle for that day. On the very bottom left of the screen, there is a small size button for Youngzheimer preventive information. User can move to page(I), prevention information page by touching this button. On the very bottom right of the screen, there is a small size Youngzheimer preventive game button. User can go to page(H), Youngzheimer prevention game page through this button.
+\\
+\subsection{Daily Page}
+This page consists of a timeline based on the user's daily activities and consists of the results of a daily O/X quiz conducted with NUGU speakers based on the user's daily activity data. The function of a timeline is as follows. The server converts the user's voice recording file from page(E), recording page, into text through the STT technology-based CLOVA speech api. After conversion finishes, it is stored in DB. Later thist is provided as a circle tag along with time information and location information in the timeline. It also provides users with a triangle tag when LG home appliances usages. This timeline is in the top-down direction, and the arrows are provided with circles and triangle tags arranged in chronological order. Results of Daily O/X quiz with NUGU speakers are provided in the form of scores out of total points so that users can easily check them at a glance.
+\\
+\subsection{Prevention Game Page}
+This page consists of three games that help prevent Youngzheimer. Users participate in all games using their voice. The first game is a simple four-pronged game. The user must state the result of the four-factor operation within a given time (ex: 173-7 = 166). The second game is color matching. Users should read the word itself, not the color of the word (ex: Presenting the word 'yellow' written in red → Correct if you read 'yellow'. Red is incorrect). The last game is reading words backwards. The user must read the given word backwards (ex: Present 'Pyramid' → 'D', 'Mi', 'Ra', 'Py' correct). Each game consists of 10 questions each, and each question is given a time limit of 5 seconds.  If it exceeds 5 seconds, it automatically moves on to the next question. After solving all 10 questions, the result screen appears.
+\\
+\subsection{Prevention Information Page}
+This page provides information on the risk of dementia, the status of dementia, and prevention. It consists of a total of three categories. The first is a category that provides information on the risk of dementia. This area, which describes the risk of dementia provided by the Korea Centers for Disease Control and Prevention, can alert users to dementia by showing the risk of dementia. The second is a category that provides information on the status of dementia. Based on statistical data provided by the Central Dementia Center, an institution under the National Medical Center of Korea, the current status of dementia in Korea is provided. By checking this information, users can be alerted to prevent dementia in advance by seeing predictions that the expected population of dementia will double in 10, 20, and 30 years. The last is a category that provides information that can prevent dementia. This area, which provides vitamins and lifestyle habits that are good for preventing dementia, will help users prevent dementia.
+\\
+\subsection{Link With NUGU}
+MEMENTO helps prevent Youngzheimer by linking with SKT’s AI speaker, NUGU. As the user records daily impressions on page(E), recording page, this data is provided in the form of a timeline on page(G), daily page. NUGU extracts keywords from information based on this timeline and presents customized O/X quizzes. Users can look back on their day by solving the daily O/X quiz presented by NUGU. This can contribute to the improvement of the user's forgetfulness and the prevention of Youngzheimer through the process of reviewing their daily activities.
+\\
+\end{document}
